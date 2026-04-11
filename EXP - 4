@@ -1,0 +1,11 @@
+# Create vector
+a <- 1:8
+
+# Create 3D array (2x2x2)
+b <- array(a, dim = c(2, 2, 2))
+
+# Print the array
+print(b)
+
+# Access element (row=2, col=1, matrix=2)
+print(b[2, 1, 2])
