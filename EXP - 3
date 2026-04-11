@@ -1,0 +1,14 @@
+# Create vector
+a <- 1:24
+
+# Create 3D array
+arr <- array(a, dim = c(2, 3, 4))
+
+# Display array
+print(arr)
+
+# Access elements (optional)
+arr[1, 2, 3]   # row 1, column 2, matrix 3
+
+# Display dimensions
+dim(arr)
