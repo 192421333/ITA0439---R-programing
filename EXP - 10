@@ -1,0 +1,10 @@
+%%R
+name <- c("Anu","Bala","Arun","Divya","Eshwar")
+score <- c(85,90,78,92,88)
+attempts <- c(1,2,1,2,3)
+qualified <- c("yes","yes","no","yes","no")
+grade <- c("A","A","B","A","B")
+
+df <- data.frame(name, score, attempts, qualified, grade)
+
+print(df)
