@@ -1,0 +1,10 @@
+a<-c(1,2,3,4,5,6)
+a
+print(paste("type:",class(a)))
+b<-c("gokul","rahul","dhanush")
+b
+print(paste("type:",class(b)))
+c<-c(TRUE,FALSE,TRUE,FALSE)
+c
+
+print(paste("type:",class(c))) explain
