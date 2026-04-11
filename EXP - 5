@@ -1,0 +1,8 @@
+c = c("short","medium","tall","medium","tall","short")
+print(c)
+
+set.seed(10)
+c = sample(LETTERS[1:5], 8, replace = TRUE)
+
+d = factor(c)
+print(d)
